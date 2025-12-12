@@ -1,0 +1,60 @@
+# Виртуальные среды Python
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Конфигурационные файлы
+config.py
+config.local.py
+*.config.py
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+
+# Кэш Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Распределения/установки
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# pipenv
+Pipfile.lock
+
+# poetry
+poetry.lock
+
+# Операционные системы
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Логи
+*.log
