@@ -10,6 +10,8 @@ from difflib import SequenceMatcher
 import Levenshtein  # Для установки: pip install python-Levenshtein
 from collections import defaultdict
 
+from PyQt5.QtWidgets import QMessageBox
+
 
 class EnhancedPainAnalyzer:
     def __init__(self):
